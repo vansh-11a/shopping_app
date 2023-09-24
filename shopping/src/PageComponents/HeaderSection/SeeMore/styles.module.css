@@ -1,0 +1,10 @@
+.see_more{
+    margin-top: 35px;
+    padding: 2px; 
+    border: 2px solid white;
+    position: relative;
+}
+
+p {
+    margin: 0;
+}

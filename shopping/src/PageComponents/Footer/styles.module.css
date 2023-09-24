@@ -1,0 +1,11 @@
+.main_container {
+    font-size: 30px;
+  }
+  
+  .copyright_container {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    padding: 20px 0;
+  }

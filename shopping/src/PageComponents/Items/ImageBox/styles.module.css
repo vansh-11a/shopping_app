@@ -1,0 +1,58 @@
+.box {
+    gap: 20px;
+    min-width: 300px;
+    margin-left: 20px;
+}
+
+.hovered:hover {
+    transform: scale(1.1);
+  }
+
+.image_container {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: 0;
+    left: 0;
+
+}
+
+.modal_img {
+    width: 300px;
+}
+
+.modal_container {
+    display: flex;
+    justify-content: center;
+}
+
+.arrow {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    display: flex;
+    top: 270px;
+    right: 0;
+}
+
+.container {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.content {
+    margin-top: 25px;
+}
+
+.heading {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.details {
+    height: 45px;
+    overflow: scroll;
+    color: rgba(22, 22, 21, 0.50);
+    padding: 5px 0;
+}
