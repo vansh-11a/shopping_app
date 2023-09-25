@@ -13,16 +13,16 @@ import smallStar from '../../Assets/smallStar.png'
 
 
 function HeaderSection({data , setCategories ,categories }) {
-  const X =0;
-  const Y =0;
+  const X_VALUE =0;
+  const Y_VALUE =0;
   return (
     <div className={styles.container}>
       <div className={styles.inner_container}>
         <div style={{display:'flex' , justifyContent:'space-between'}}>
           <h2 style={{fontSize:42}}>ShopKart</h2>
           <div className={styles.wishlist}>
-            <div>WISHLIST ({X})</div>
-            <div>BAG ({Y})</div>
+            <div>WISHLIST ({X_VALUE})</div>
+            <div>BAG ({Y_VALUE})</div>
           </div>
         </div>
         <Line/>
